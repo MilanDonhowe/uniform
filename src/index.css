@@ -1,0 +1,82 @@
+* {
+  font-family: Arial, Helvetica, sans-serif;
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  color: #181818;
+}
+
+#title {
+  display: block;
+  background-color: #4fe287;
+  color: #ffffff;
+  text-align: left;
+  padding: 0px 5px;
+}
+#title h1, #title h2 {
+  display: inline-block;
+}
+#title h1::first-letter {
+  color: inherit;
+  font-weight: 900;
+  font-size: 200%;
+  padding-right: 1px;
+}
+
+#input {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin: 11px 10px;
+}
+#input textarea {
+  outline: none;
+  resize: none;
+  padding: 5px;
+  border-radius: 10px;
+  border: 2px solid rgba(74, 212, 127, 0.7);
+}
+#input textarea::placeholder {
+  font-style: italic;
+  opacity: 0.25;
+}
+
+.output {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  margin: 10px;
+  padding: 10px;
+  align-items: center;
+  justify-content: center;
+}
+
+.col {
+  display: flex;
+  flex-direction: column;
+  align-self: center;
+  align-items: center;
+}
+
+.text-box {
+  display: flex;
+  margin: 5px;
+}
+.text-box input {
+  flex-grow: 1;
+  min-width: 200px;
+  min-height: 2em;
+  text-align: center;
+  padding: 15px 45px;
+  border: 2px solid #181818;
+  border-radius: 3px;
+  cursor: pointer;
+}
+
+svg {
+  margin: 3px;
+}
+
+/*# sourceMappingURL=index.css.map */
