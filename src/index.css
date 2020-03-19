@@ -15,7 +15,7 @@ body {
   text-align: left;
   padding: 0px 5px;
 }
-#title h1, #title h2 {
+#title h1, #title h3 {
   display: inline-block;
 }
 #title h1::first-letter {
@@ -23,6 +23,10 @@ body {
   font-weight: 900;
   font-size: 200%;
   padding-right: 1px;
+}
+#title h3 {
+  padding-left: 4px;
+  font-size: 20px;
 }
 
 #input {
@@ -73,10 +77,28 @@ body {
   border: 2px solid #181818;
   border-radius: 3px;
   cursor: pointer;
+  outline: none;
 }
 
-svg {
+footer {
+  position: absolute;
+  bottom: 0;
+}
+footer svg {
   margin: 3px;
+}
+
+@media (min-width: 1920px) {
+  #title h1 {
+    font-size: 40px;
+  }
+  #title h3 {
+    font-size: 32px;
+  }
+
+  .text-box input {
+    font-size: 24px;
+  }
 }
 
 /*# sourceMappingURL=index.css.map */

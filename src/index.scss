@@ -1,7 +1,8 @@
 
 // Variables
 $almost-black: #181818;
-
+$banner-green: rgb(79, 226, 135);
+$darker-green: rgba(74, 212, 127, 0.7);
 
 
 * {
@@ -16,11 +17,11 @@ body{
 
 #title{
     display:block;
-    background-color: rgb(79, 226, 135);
+    background-color: $banner-green;
     color: #ffffff;
     text-align: left;
     padding: 0px 5px;
-    h1, h2{
+    h1, h3{
         display:inline-block;
     }
     h1::first-letter{
@@ -28,6 +29,10 @@ body{
         font-weight: 900;
         font-size:200%;
         padding-right:1px;
+    }
+    h3 {
+        padding-left:4px;
+        font-size: 20px;
     }
 }
 
@@ -41,7 +46,7 @@ body{
         resize:none;
         padding:5px;
         border-radius:10px;
-        border: 2px solid rgba(74, 212, 127, 0.7);
+        border: 2px solid $darker-green;
     }
     textarea::placeholder{
         font-style:italic;
@@ -77,9 +82,33 @@ body{
         border: 2px solid $almost-black;
         border-radius: 3px;
         cursor:pointer;
+        outline:none;
     }
 }
 
-svg{
-    margin: 3px;
+
+footer {
+    position:absolute;
+    bottom:0;
+    svg{
+        margin: 3px;
+    }
+}
+
+// media-queries for large screens
+$layout-large-screen: 1920px;
+@media (min-width: $layout-large-screen){
+    #title{
+        h1 {
+            font-size: 40px;
+        }
+        h3{
+            font-size: 32px;
+        }
+    }
+    .text-box{
+        input{
+            font-size: 24px;
+        }
+    }
 }
