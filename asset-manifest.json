@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/uniform/static/css/main.0fb5f51c.chunk.css",
+    "main.css": "/uniform/static/css/main.f08ca7c3.chunk.css",
     "main.js": "/uniform/static/js/main.df83c6f8.chunk.js",
     "main.js.map": "/uniform/static/js/main.df83c6f8.chunk.js.map",
     "runtime-main.js": "/uniform/static/js/runtime-main.f5eaf302.js",
@@ -8,15 +8,15 @@
     "static/js/2.d11f9678.chunk.js": "/uniform/static/js/2.d11f9678.chunk.js",
     "static/js/2.d11f9678.chunk.js.map": "/uniform/static/js/2.d11f9678.chunk.js.map",
     "index.html": "/uniform/index.html",
-    "precache-manifest.0eaa7dab002f606f8845acbc6b57c0d1.js": "/uniform/precache-manifest.0eaa7dab002f606f8845acbc6b57c0d1.js",
+    "precache-manifest.1236be7a85389a950ef8275afa7e283c.js": "/uniform/precache-manifest.1236be7a85389a950ef8275afa7e283c.js",
     "service-worker.js": "/uniform/service-worker.js",
-    "static/css/main.0fb5f51c.chunk.css.map": "/uniform/static/css/main.0fb5f51c.chunk.css.map",
+    "static/css/main.f08ca7c3.chunk.css.map": "/uniform/static/css/main.f08ca7c3.chunk.css.map",
     "static/js/2.d11f9678.chunk.js.LICENSE.txt": "/uniform/static/js/2.d11f9678.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.f5eaf302.js",
     "static/js/2.d11f9678.chunk.js",
-    "static/css/main.0fb5f51c.chunk.css",
+    "static/css/main.f08ca7c3.chunk.css",
     "static/js/main.df83c6f8.chunk.js"
   ]
 }
